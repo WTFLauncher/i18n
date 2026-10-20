@@ -32,3 +32,9 @@ https://wtflauncher.github.io/i18n/ ，启动器读取的入口是其中的 inde
     ./release.sh
 
 产物出现在 build 目录。日常发布不需要本地跑，推送 .ts 改动会触发 Build Pages 工作流自动发布。
+
+## 发布注意事项
+
+推送 .ts 改动会触发 Build Pages 工作流，但实测通过 GitHub 的 Contents API 提交时并不会产生对应的
+运行记录。所以每次改完都要确认 Actions 里确实有针对该提交的 Build Pages 运行；没有就手动执行
+workflow_dispatch ，否则站点会停留在旧内容上，而旧文件的 sha1 仍然自洽，启动器不会报任何错。
