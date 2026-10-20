@@ -6,7 +6,10 @@ on:
       - master
     paths:
       - '**.ts'
-      - '.github/CNAME'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -25,7 +28,6 @@ jobs:
       - name: Move directory
         run: |
           mv build _site
-          cp .github/CNAME _site/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
