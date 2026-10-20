@@ -970,7 +970,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -982,7 +982,7 @@ To delete this lock and proceed select &quot;Ignore&quot; below.</source>
 安装目标路径：%5
 数据路径：%6
 这种情况有很大可能是上次更新失败过，请先确保该启动器安装是正常的再尝试继续。
-查看 Prism Launcher 更新安装日志文件：
+查看 WTF Launcher 更新安装日志文件：
 %7
 以获取有关上次更新的详细信息。
 
@@ -998,13 +998,13 @@ To delete this lock and proceed select &quot;Ignore&quot; below.</source>
         <source>An update attempt failed
 
 Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %1
 for details on the last update attempt.</source>
         <translation>更新失败
 
 继续前，请先确保启动器工作正常。
-查看 Prism Launcher 更新安装日志：
+查看 WTF Launcher 更新安装日志：
 %1
 以了解上次更新的详情。</translation>
     </message>
@@ -1018,7 +1018,7 @@ for details on the last update attempt.</source>
         <source>Update succeeded
 
 You are now running %1 .
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %2
 for details.</source>
         <oldsource>Update succeeded
@@ -1030,7 +1030,7 @@ for details.</oldsource>
         <translation>更新成功
 
 你现在正在运行 %1。
-请于此处查看 Prism Launcher 更新日志以了解详情：
+请于此处查看 WTF Launcher 更新日志以了解详情：
 %2 。</translation>
     </message>
     <message>
@@ -4276,9 +4276,9 @@ NOTE: Make sure you made a backup of your important instance data before updatin
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="22"/>
-        <source>Note: CurseForge allows creators to block access to third-party tools like Prism Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
+        <source>Note: CurseForge allows creators to block access to third-party tools like WTF Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
         <oldsource>Note: CurseForge allows creators to block access to third-party tools like PolyMC. As such, you may need to manually download some mods to be able to install a modpack.</oldsource>
-        <translation>注意：CurseForge 允许创作者阻止 Prism Launcher 等第三方工具的访问。因此，你可能需要手动下载一些 Mod 才能安装整合包。</translation>
+        <translation>注意：CurseForge 允许创作者阻止 WTF Launcher 等第三方工具的访问。因此，你可能需要手动下载一些 Mod 才能安装整合包。</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="37"/>
@@ -6278,9 +6278,9 @@ Please make sure that the maximum memory value is lower.</source>
     </message>
     <message>
         <location filename="src/launcher/ui/setupwizard/JavaWizardPage.cpp" line="85"/>
-        <source>Please select how much memory to allocate to instances and if Prism Launcher should manage Java automatically or manually.</source>
+        <source>Please select how much memory to allocate to instances and if WTF Launcher should manage Java automatically or manually.</source>
         <oldsource>Please select how much memory to allocate to instances and if Prism Launcher should manage java automatically or manually.</oldsource>
-        <translation>请选择要分配给实例的内存大小，以及应手动管理还是让 Prism Launcher 自动管理 Java。</translation>
+        <translation>请选择要分配给实例的内存大小，以及应手动管理还是让 WTF Launcher 自动管理 Java。</translation>
     </message>
     <message>
         <source>You do not have a working Java set up yet or it went missing.
@@ -6972,8 +6972,8 @@ You may have to fix your mods because the game is still logging to files and lik
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="305"/>
-        <source>Folder where Prism Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
-        <translation>用于存放 Prism Launcher 自动下载的 Java 版本的文件夹。不要将此项设置为系统的 Java 安装路径。</translation>
+        <source>Folder where WTF Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
+        <translation>用于存放 WTF Launcher 自动下载的 Java 版本的文件夹。不要将此项设置为系统的 Java 安装路径。</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="89"/>
@@ -8945,8 +8945,8 @@ Reason:
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.ui" line="466"/>
-        <source>Prism Launcher (zip)</source>
-        <translation>Prism Launcher（.zip）</translation>
+        <source>WTF Launcher (zip)</source>
+        <translation>WTF Launcher（.zip）</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.ui" line="474"/>
@@ -9530,10 +9530,10 @@ Are you sure?</source>
         <location filename="src/launcher/ui/MainWindow.cpp" line="972"/>
         <source>Unsupported Modrinth link.
 
-Prism Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
+WTF Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
         <translation>不支持该 Modrinth 链接。
 
-Prism Launcher 目前只支持整合包链接，例如 modrinth://modpack/fabulously-optimized。</translation>
+WTF Launcher 目前只支持整合包链接，例如 modrinth://modpack/fabulously-optimized。</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.cpp" line="1091"/>
@@ -13698,8 +13698,8 @@ The updater cannot continue until you fix this problem.</source>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="458"/>
-        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of Prism Launcher.</source>
-        <translation>运行 Flatpak 版本的 Prism Launcher 时，不支持检查更新以外的任何操作。</translation>
+        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of WTF Launcher.</source>
+        <translation>运行 Flatpak 版本的 WTF Launcher 时，不支持检查更新以外的任何操作。</translation>
     </message>
     <message>
         <source>Updating Not Supported</source>
@@ -13828,7 +13828,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a previous update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -13840,7 +13840,7 @@ To overwrite this lock and proceed with this update anyway, select &quot;Ignore&
 安装目标路径：%5
 数据路径：%6
 可能是上次尝试更新失败。我们不能确保你的这次安装可以正常工作。
-检查 Prism Launcher 更新程序日志： 
+检查 WTF Launcher 更新程序日志： 
 %7
 以获取有关上次更新尝试的详细信息。
 
@@ -14962,8 +14962,8 @@ Would you like to remove those existing saves as part of this update?</source>
     </message>
     <message>
         <location filename="src/launcher/filelink/FileLink.cpp" line="49"/>
-        <source>a batch MKLINK program for windows to be used with prismlauncher</source>
-        <translation>适用于Windows的MKLINK程序，可与PrismLauncher一起使用</translation>
+        <source>a batch MKLINK program for windows to be used with wtflauncher</source>
+        <translation>适用于Windows的MKLINK程序，可与WTFLauncher一起使用</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/instanceview/VisualGroup.cpp" line="163"/>
@@ -14972,8 +14972,8 @@ Would you like to remove those existing saves as part of this update?</source>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="86"/>
-        <source>An auto-updater for Prism Launcher</source>
-        <translation>Prism Launcher 的自动更新程序</translation>
+        <source>An auto-updater for WTF Launcher</source>
+        <translation>WTF Launcher 的自动更新程序</translation>
     </message>
     <message>
         <source>Could not fix permissions for %1</source>
