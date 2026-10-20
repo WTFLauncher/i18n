@@ -920,7 +920,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -932,7 +932,7 @@ Ažuriranje s verzije %3 na %4
 Putanja ciljane instalacije: %5
 Put podataka: %6
 To vjerojatno znači da pokušaj ažuriranja nije uspio. Provjerite je li vaša instalacija u ispravnom stanju prije nastavka.
-Provjerite dnevnik ažuriranja programa Prism Launcher na:
+Provjerite dnevnik ažuriranja programa WTF Launcher na:
 %7
 za detalje o posljednjem pokušaju ažuriranja.
 
@@ -948,13 +948,13 @@ Za brisanje ovog zaključavanja i nastavak odaberite &quot;Zanemari&quot; u nast
         <source>An update attempt failed
 
 Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %1
 for details on the last update attempt.</source>
         <translation>Pokušaj ažuriranja nije uspio
 
 Provjerite je li vaša instalacija u ispravnom stanju prije nastavka.
-Provjerite dnevnik ažuriranja programa Prism Launcher na:
+Provjerite dnevnik ažuriranja programa WTF Launcher na:
 %1
 za detalje o posljednjem pokušaju ažuriranja.</translation>
     </message>
@@ -968,7 +968,7 @@ za detalje o posljednjem pokušaju ažuriranja.</translation>
         <source>Update succeeded
 
 You are now running %1 .
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %2
 for details.</source>
         <oldsource>Update succeeded
@@ -980,7 +980,7 @@ for details.</oldsource>
         <translation>Ažuriranje uspjelo
 
 Sada izvodite %1.
-Provjerite dnevnik ažuriranja programa Prism Launcher na:
+Provjerite dnevnik ažuriranja programa WTF Launcher na:
 %1
 za detalje.</translation>
     </message>
@@ -3887,9 +3887,9 @@ Jeste li sigurni da to želite napraviti?</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="22"/>
-        <source>Note: CurseForge allows creators to block access to third-party tools like Prism Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
+        <source>Note: CurseForge allows creators to block access to third-party tools like WTF Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
         <oldsource>Note: CurseForge allows creators to block access to third-party tools like PolyMC. As such, you may need to manually download some mods to be able to install a modpack.</oldsource>
-        <translation>Napomena: CurseForge omogućuje kreatorima da blokiraju pristup alatima trećih strana kao što je Prism Launcher.Kao takvi, možda ćete morati ručno preuzeti neke modifikacije da biste mogli instalirati modpack.</translation>
+        <translation>Napomena: CurseForge omogućuje kreatorima da blokiraju pristup alatima trećih strana kao što je WTF Launcher.Kao takvi, možda ćete morati ručno preuzeti neke modifikacije da biste mogli instalirati modpack.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="37"/>
@@ -5108,9 +5108,9 @@ Provjerite je li maksimalna vrijednost memorije manja.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/setupwizard/JavaWizardPage.cpp" line="85"/>
-        <source>Please select how much memory to allocate to instances and if Prism Launcher should manage Java automatically or manually.</source>
+        <source>Please select how much memory to allocate to instances and if WTF Launcher should manage Java automatically or manually.</source>
         <oldsource>Please select how much memory to allocate to instances and if Prism Launcher should manage java automatically or manually.</oldsource>
-        <translation>Odaberite koliko memorije želite dodijeliti instancama i treba li Prism Launcher upravljati Javom automatski ili ručno.</translation>
+        <translation>Odaberite koliko memorije želite dodijeliti instancama i treba li WTF Launcher upravljati Javom automatski ili ručno.</translation>
     </message>
 </context>
 <context>
@@ -5720,8 +5720,8 @@ Možda ćete morati popraviti svoje modove jer se igra i dalje logira u datoteke
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="305"/>
-        <source>Folder where Prism Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
-        <translation>Mapa u koju Prism Launcher pohranjuje automatski preuzete verzije Java.NE postavljajte ovo na Java instalaciju vašeg sustava.</translation>
+        <source>Folder where WTF Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
+        <translation>Mapa u koju WTF Launcher pohranjuje automatski preuzete verzije Java.NE postavljajte ovo na Java instalaciju vašeg sustava.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="89"/>
@@ -7001,7 +7001,7 @@ razlog:
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.ui" line="466"/>
-        <source>Prism Launcher (zip)</source>
+        <source>WTF Launcher (zip)</source>
         <translation>Prism pokretač (zip)</translation>
     </message>
     <message>
@@ -7285,10 +7285,10 @@ razlog:
         <location filename="src/launcher/ui/MainWindow.cpp" line="972"/>
         <source>Unsupported Modrinth link.
 
-Prism Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
+WTF Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
         <translation>Nepodržana Modrinth veza.
 
-Prism Launcher trenutno podržava samo modpack veze kao što je modrinth://modpack/fabulously-optimized.</translation>
+WTF Launcher trenutno podržava samo modpack veze kao što je modrinth://modpack/fabulously-optimized.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.cpp" line="1037"/>
@@ -10604,8 +10604,8 @@ Ažuriranje ne može nastaviti dok ne riješite ovaj problem.</translation>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="458"/>
-        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of Prism Launcher.</source>
-        <translation>Radnje izvan provjere dostupnosti ažuriranja nisu podržane kada se pokreće verzija Flatpak programa Prism Launcher.</translation>
+        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of WTF Launcher.</source>
+        <translation>Radnje izvan provjere dostupnosti ažuriranja nisu podržane kada se pokreće verzija Flatpak programa WTF Launcher.</translation>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="517"/>
@@ -10726,7 +10726,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a previous update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -10738,7 +10738,7 @@ Ažuriranje s verzije %3 na %4
 Putanja ciljane instalacije: %5
 Put podataka: %6
 To vjerojatno znači da prethodni pokušaj ažuriranja nije uspio.Provjerite je li vaša instalacija u ispravnom stanju prije nastavka.
-Provjerite dnevnik ažuriranja programa Prism Launcher na:
+Provjerite dnevnik ažuriranja programa WTF Launcher na:
 %7
 za detalje o posljednjem pokušaju ažuriranja.
 
@@ -11647,8 +11647,8 @@ Would you like to remove those existing saves as part of this update?</source>
     </message>
     <message>
         <location filename="src/launcher/filelink/FileLink.cpp" line="49"/>
-        <source>a batch MKLINK program for windows to be used with prismlauncher</source>
-        <translation>skupni MKLINK program za Windows koji se koristi s prismlauncherom</translation>
+        <source>a batch MKLINK program for windows to be used with wtflauncher</source>
+        <translation>skupni MKLINK program za Windows koji se koristi s wtflauncherom</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/instanceview/VisualGroup.cpp" line="163"/>
@@ -11657,8 +11657,8 @@ Would you like to remove those existing saves as part of this update?</source>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="86"/>
-        <source>An auto-updater for Prism Launcher</source>
-        <translation>Automatsko ažuriranje za Prism Launcher</translation>
+        <source>An auto-updater for WTF Launcher</source>
+        <translation>Automatsko ažuriranje za WTF Launcher</translation>
     </message>
     <message>
         <location filename="src/launcher/minecraft/mod/Resource.cpp" line="33"/>

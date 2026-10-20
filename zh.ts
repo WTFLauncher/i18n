@@ -8674,7 +8674,7 @@ Reason:
     </message>
     <message>
         <source>Install a prismlauncher symlink to /usr/local/bin</source>
-        <translation type="vanished">安装一个 prismlauncher 符号链接至 /usr/local/bin</translation>
+        <translation type="vanished">安装一个 wtflauncher 符号链接至 /usr/local/bin</translation>
     </message>
     <message>
         <source>Report a &amp;Bug...</source>

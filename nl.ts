@@ -954,7 +954,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -966,7 +966,7 @@ Bijwerken van versie %3 naar %4
 Installatiepad: %5
 Datapad: %6
 Dit betekent waarschijnlijk dat een bijwerkpoging is gefaald. Zorg dat de installatie werkt voordat u doorgaat.
-Controleer de Prism Launcher bijwerker log op: 
+Controleer de WTF Launcher bijwerker log op: 
 %7
 voor details over de laatste bijwerk poging.
 
@@ -982,13 +982,13 @@ Om deze lock te verwijderen en door te gaan, druk hieronder op &quot;Negeer&quot
         <source>An update attempt failed
 
 Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %1
 for details on the last update attempt.</source>
         <translation>Een poging om bij te werken is mislukt
 
 Zorg dat de installatie werkt voordat u doorgaat.
-Controleer de Prism Launcher bijwerklog op 
+Controleer de WTF Launcher bijwerklog op 
 %1
 voor details over de laatste bijwerkpoging.</translation>
     </message>
@@ -1002,7 +1002,7 @@ voor details over de laatste bijwerkpoging.</translation>
         <source>Update succeeded
 
 You are now running %1 .
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %2
 for details.</source>
         <oldsource>Update succeeded
@@ -1014,7 +1014,7 @@ for details.</oldsource>
         <translation>Bijwerken gelukt
 
 U gebruikt nu %1 .
-Controleer het Prism Launcher bijwerkprogramma logbestand op: 
+Controleer het WTF Launcher bijwerkprogramma logbestand op: 
 %1
 voor details.</translation>
     </message>
@@ -4220,9 +4220,9 @@ NB: Zorg dat je een back-up hebt gemaakt van je belangrijke instantie-data voord
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="22"/>
-        <source>Note: CurseForge allows creators to block access to third-party tools like Prism Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
+        <source>Note: CurseForge allows creators to block access to third-party tools like WTF Launcher. As such, you may need to manually download some mods to be able to install a modpack.</source>
         <oldsource>Note: CurseForge allows creators to block access to third-party tools like PolyMC. As such, you may need to manually download some mods to be able to install a modpack.</oldsource>
-        <translation>Info: CurseForge maakt het mogelijk voor makers om hulpmiddelen van derde partijen zoals Prism Launcher te blokkeren. Hierdoor kan het nodig zijn om voor de installatie van een modpakket sommige mods handmatig te downloaden.</translation>
+        <translation>Info: CurseForge maakt het mogelijk voor makers om hulpmiddelen van derde partijen zoals WTF Launcher te blokkeren. Hierdoor kan het nodig zijn om voor de installatie van een modpakket sommige mods handmatig te downloaden.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/modplatform/flame/FlamePage.ui" line="37"/>
@@ -6170,9 +6170,9 @@ Zorg er a.u.b. voor dat de maximale geheugen waarde lager is.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/setupwizard/JavaWizardPage.cpp" line="85"/>
-        <source>Please select how much memory to allocate to instances and if Prism Launcher should manage Java automatically or manually.</source>
+        <source>Please select how much memory to allocate to instances and if WTF Launcher should manage Java automatically or manually.</source>
         <oldsource>Please select how much memory to allocate to instances and if Prism Launcher should manage java automatically or manually.</oldsource>
-        <translation>Selecteer hoeveel RAM-geheugen je aan de instanties wil toewijzen en of Prism Launcher automatisch of handmatig Java moet beheren.</translation>
+        <translation>Selecteer hoeveel RAM-geheugen je aan de instanties wil toewijzen en of WTF Launcher automatisch of handmatig Java moet beheren.</translation>
     </message>
     <message>
         <source>You do not have a working Java set up yet or it went missing.
@@ -6860,8 +6860,8 @@ Misschien moet u uw mods eens fixen. Het spel is nog steeds naar bestanden aan h
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="305"/>
-        <source>Folder where Prism Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
-        <translation>Map waar Prism Launcher automatisch gedownloade Java-versies opslaat. Stel dit NIET in op de Java-installatie van uw systeem.</translation>
+        <source>Folder where WTF Launcher stores automatically downloaded Java versions. Do NOT set this to your system Java installation.</source>
+        <translation>Map waar WTF Launcher automatisch gedownloade Java-versies opslaat. Stel dit NIET in op de Java-installatie van uw systeem.</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/pages/global/LauncherPage.ui" line="89"/>
@@ -8733,8 +8733,8 @@ Reden:
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.ui" line="466"/>
-        <source>Prism Launcher (zip)</source>
-        <translation>Prism Launcher (zip)</translation>
+        <source>WTF Launcher (zip)</source>
+        <translation>WTF Launcher (zip)</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/MainWindow.ui" line="474"/>
@@ -9308,7 +9308,7 @@ Weet u het zeker?</translation>
         <location filename="src/launcher/ui/MainWindow.cpp" line="972"/>
         <source>Unsupported Modrinth link.
 
-Prism Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
+WTF Launcher currently only supports modpack links such as modrinth://modpack/fabulously-optimized.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13379,8 +13379,8 @@ Het updateprogramma kan niet doorgaan totdat je dit probleem hebt opgelost.</tra
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="458"/>
-        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of Prism Launcher.</source>
-        <translation>Acties buiten het controleren of er een update beschikbaar is, worden niet ondersteund wanneer de flatpak-versie van Prism Launcher wordt uitgevoerd.</translation>
+        <source>Actions outside of checking if an update is available are not supported when running the flatpak version of WTF Launcher.</source>
+        <translation>Acties buiten het controleren of er een update beschikbaar is, worden niet ondersteund wanneer de flatpak-versie van WTF Launcher wordt uitgevoerd.</translation>
     </message>
     <message>
         <source>Updating Not Supported</source>
@@ -13509,7 +13509,7 @@ Updating from version %3 to %4
 Target install path: %5
 Data Path: %6
 This likely means that a previous update attempt failed. Please ensure your installation is in working order before proceeding.
-Check the Prism Launcher updater log at: 
+Check the WTF Launcher updater log at: 
 %7
 for details on the last update attempt.
 
@@ -13521,7 +13521,7 @@ Updaten van versie %3 naar %4
 Doel installatiepad: %5
 Datapad: %6
 Dit betekent waarschijnlijk dat een vorige updatepoging is mislukt. Controleer of uw installatie werkt voordat u verdergaat.
-Controleer het updatelogboek van Prism Launcher op: 
+Controleer het updatelogboek van WTF Launcher op: 
 %7
 voor details over de laatste updatepoging.
 
@@ -14623,8 +14623,8 @@ Wil je deze als onderdeel van deze update verwijderen?</translation>
     </message>
     <message>
         <location filename="src/launcher/filelink/FileLink.cpp" line="49"/>
-        <source>a batch MKLINK program for windows to be used with prismlauncher</source>
-        <translation>een batch MKLINK programma voor windows voor gebruik met prismlauncher</translation>
+        <source>a batch MKLINK program for windows to be used with wtflauncher</source>
+        <translation>een batch MKLINK programma voor windows voor gebruik met wtflauncher</translation>
     </message>
     <message>
         <location filename="src/launcher/ui/instanceview/VisualGroup.cpp" line="163"/>
@@ -14633,8 +14633,8 @@ Wil je deze als onderdeel van deze update verwijderen?</translation>
     </message>
     <message>
         <location filename="src/launcher/updater/prismupdater/PrismUpdater.cpp" line="86"/>
-        <source>An auto-updater for Prism Launcher</source>
-        <translation>Een auto-updater voor Prism Launcher</translation>
+        <source>An auto-updater for WTF Launcher</source>
+        <translation>Een auto-updater voor WTF Launcher</translation>
     </message>
     <message>
         <source>Could not fix permissions for %1</source>
