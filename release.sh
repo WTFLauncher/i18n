@@ -67,7 +67,10 @@ do
     cp "$OUTPUT/$lang.qm" "$OUTPUT/$FILENAME"
 
     # Create an index file with info about the amount of strings translated and expected hashes of the files (for local caching purposes)
-    PO_STATS=`msgfmt --statistics --output=/dev/null ${po_file} 2>&1`
+    # A single language whose generated .po has fatal msgfmt errors used to abort the whole
+    # build under `set -e`, which took down all 101 languages. The counts are only metadata
+    # for the index, so a failure here must not be fatal.
+    PO_STATS=`msgfmt --statistics --output=/dev/null ${po_file} 2>&1 || true`
     UNTRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ untranslated messages\?')
     FUZZY=$(grep_count "$PO_STATS" '[0-9]\+ fuzzy translations\?')
     TRANSLATED=$(grep_count "$PO_STATS" '[0-9]\+ translated messages\?')
