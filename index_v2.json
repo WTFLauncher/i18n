@@ -795,10 +795,10 @@
             "untranslated" : 35
         },
         "zh" : {
-            "file" : "cc50afba9a46b21269cb4cca47451672d3cc6063.class",
-            "sha1" : "cc50afba9a46b21269cb4cca47451672d3cc6063",
-            "size" : 263218,
-            "translated" : 2548,
+            "file" : "4abaa2510773b3e794b0f2d5de41d41bae2fbd64.class",
+            "sha1" : "4abaa2510773b3e794b0f2d5de41d41bae2fbd64",
+            "size" : 272643,
+            "translated" : 2615,
             "fuzzy" : 0,
             "untranslated" : 0
         },
