@@ -261,6 +261,14 @@
             <source>Mirror only</source>
             <translation>仅镜像</translation>
         </message>
+        <message>
+            <source>Library mirrors</source>
+            <translation>支持库镜像</translation>
+        </message>
+        <message>
+            <source>Tried in order for Mojang libraries, loader libraries and Maven Central, before the mirror base URL above. These mirrors carry that one tree, not the game itself.</source>
+            <translation>按顺序尝试，用于 Mojang 支持库、模组加载器库与 Maven Central，排在上面的镜像基础地址之前。这些镜像只包含这一棵库文件树，不包含游戏本体。</translation>
+        </message>
 </context>
 <context>
     <name>ATLauncher::PackInstallTask</name>
@@ -19840,6 +19848,29 @@ Please set up your account according to %1.</source>
         <message>
             <source>Cancel</source>
             <translation>取消</translation>
+        </message>
+</context>
+<context>
+    <name>MirrorListEditor</name>
+        <message>
+            <source>Up</source>
+            <translation>上移</translation>
+        </message>
+        <message>
+            <source>Down</source>
+            <translation>下移</translation>
+        </message>
+        <message>
+            <source>Remove</source>
+            <translation>删除</translation>
+        </message>
+        <message>
+            <source>https://example.com/maven</source>
+            <translation>https://example.com/maven</translation>
+        </message>
+        <message>
+            <source>Add</source>
+            <translation>添加</translation>
         </message>
 </context>
 </TS>
