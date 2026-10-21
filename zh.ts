@@ -8243,6 +8243,10 @@ Reason:
         <source>Add Microsoft account</source>
         <translation>添加微软账户</translation>
     </message>
+        <message>
+            <source>Add a Microsoft account here, or skip this step and add an offline account later under Settings - Accounts.</source>
+            <translation>在这里添加微软账户，或者跳过这一步，稍后在“设置 - 账户”中添加离线账户。</translation>
+        </message>
 </context>
 <context>
     <name>MMCZip::ExportToZipTask</name>
@@ -8453,6 +8457,10 @@ Reason:
         <source>Open %1 and enter the above code.</source>
         <translation type="vanished">打开 %1 然后输入上方代码。</translation>
     </message>
+        <message>
+            <source>This build's Microsoft app ID is not yet authorized by Xbox Live, so Microsoft may reject the sign-in. Offline accounts and authlib-injector are unaffected; an authorized app ID can be set in Settings - API.</source>
+            <translation>此构建内置的微软应用 ID 尚未获得 Xbox Live 授权，因此登录可能被微软拒绝。离线账户与 authlib-injector 不受影响；如果你有已授权的应用 ID，可在“设置 - API”中填写。</translation>
+        </message>
 </context>
 <context>
     <name>MSAStep</name>
