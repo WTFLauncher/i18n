@@ -19791,6 +19791,14 @@ Please set up your account according to %1.</source>
             <source>Could not add the OptiFine component to the instance.</source>
             <translation>无法将 OptiFine 组件添加到实例。</translation>
         </message>
+        <message>
+            <source>Looking for a Java runtime to run the installer with</source>
+            <translation>正在寻找用于运行安装器的 Java 运行库</translation>
+        </message>
+        <message>
+            <source>OptiFine needs a Java runtime to install. Launch this instance once so the launcher downloads one, or set a Java path in its settings.</source>
+            <translation>安装 OptiFine 需要 Java 运行库。请启动一次本实例让启动器自动下载，或者在实例设置里指定 Java 路径。</translation>
+        </message>
 </context>
 <context>
     <name>OptiFine::ListTask</name>
