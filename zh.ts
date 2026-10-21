@@ -213,6 +213,54 @@
         <source>APIs</source>
         <translation type="vanished">API</translation>
     </message>
+        <message>
+            <source>Download Mirrors</source>
+            <translation>下载镜像</translation>
+        </message>
+        <message>
+            <source>Only Mojang's own download hosts are redirected, and only for files the mirror actually has. Content servers such as Modrinth or CurseForge are never touched.</source>
+            <translation>只会重定向 Mojang 自己的下载地址，且仅限镜像上确实存在的文件。Modrinth、CurseForge 等内容服务器不受影响。</translation>
+        </message>
+        <message>
+            <source>Source order</source>
+            <translation>下载源顺序</translation>
+        </message>
+        <message>
+            <source>Mirror base URL</source>
+            <translation>镜像地址</translation>
+        </message>
+        <message>
+            <source>https://bmclapi2.bangbang93.com</source>
+            <translation>https://bmclapi2.bangbang93.com</translation>
+        </message>
+        <message>
+            <source>Services mirror</source>
+            <translation>服务镜像</translation>
+        </message>
+        <message>
+            <source>Optional verbatim mirror of the metadata server and the translation site. Content mirrors such as BMCLAPI do not carry them, so leave this empty unless the mirror really is a copy of those two.</source>
+            <translation>可选：meta 服务器与翻译站的完整镜像。BMCLAPI 这类内容镜像不包含它们，所以除非该镜像确实是这两个站的完整副本，否则留空。</translation>
+        </message>
+        <message>
+            <source>Empty unless you have a verbatim mirror</source>
+            <translation>除非是完整镜像，否则留空</translation>
+        </message>
+        <message>
+            <source>Official only, no mirror</source>
+            <translation>仅官方，不使用镜像</translation>
+        </message>
+        <message>
+            <source>Official first, fall back to the mirror</source>
+            <translation>先官方，失败后改用镜像</translation>
+        </message>
+        <message>
+            <source>Mirror first, fall back to the official host</source>
+            <translation>先镜像，失败后改用官方</translation>
+        </message>
+        <message>
+            <source>Mirror only</source>
+            <translation>仅镜像</translation>
+        </message>
 </context>
 <context>
     <name>ATLauncher::PackInstallTask</name>
@@ -326,6 +374,10 @@
         <source>Failed to create pack component</source>
         <translation type="vanished">无法创建包组件</translation>
     </message>
+        <message>
+            <source>Blocked path traversal in %1</source>
+            <translation>已拦截 %1 中的路径穿越</translation>
+        </message>
 </context>
 <context>
     <name>AboutDialog</name>
@@ -1439,6 +1491,26 @@ Some versions of Minecraft may not launch.
         <source>No compatible version of Java was found. Using the default one.</source>
         <translation>找不到兼容的 Java 版本。将使用默认的 Java。</translation>
     </message>
+        <message>
+            <source>Looking for Java inside the instance was aborted.</source>
+            <translation>实例内的 Java 查找已中止。</translation>
+        </message>
+        <message>
+            <source>No Java runtime was found inside the instance, using the usual Java resolution.</source>
+            <translation>实例内未找到 Java 运行库，改用常规的 Java 解析。</translation>
+        </message>
+        <message>
+            <source>None of the Java runtimes inside the instance can be used by this version, using the usual Java resolution.</source>
+            <translation>实例内的 Java 运行库没有一个适用于此版本，改用常规的 Java 解析。</translation>
+        </message>
+        <message>
+            <source>A compatible Java was found but excluded by the allowed versions '%1'. Using the default Java path.</source>
+            <translation>找到了兼容的 Java，但被允许的 Java 版本 '%1' 排除，改用默认 Java 路径。</translation>
+        </message>
+        <message>
+            <source>The allowed Java versions '%1' exclude every version this instance can use (%2), so no Java will be downloaded.</source>
+            <translation>允许的 Java 版本 '%1' 排除了此实例可用的全部版本（%2），因此不会下载 Java。</translation>
+        </message>
 </context>
 <context>
     <name>AutoJavaWizardPage</name>
@@ -6268,6 +6340,26 @@ Please make sure that the maximum memory value is lower.</source>
         <source>You are exceeding the maximum allocation supported by 32-bit installations of Java.</source>
         <translation type="vanished">已超过 32 位 Java 支持的最大内存分配大小。</translation>
     </message>
+        <message>
+            <source>&amp;Allowed Java versions</source>
+            <translation>允许的 Java 版本 (&amp;A)</translation>
+        </message>
+        <message>
+            <source>Restrict which Java installations the launcher may pick automatically. Leave empty for no restriction.</source>
+            <translation>限制启动器可以自动选择的 Java 安装。留空表示不限制。</translation>
+        </message>
+        <message>
+            <source>e.g. 8, or 8-17, or 8, 11, 17-21</source>
+            <translation>例如 8，或 8-17，或 8, 11, 17-21</translation>
+        </message>
+        <message>
+            <source>Look for a Java runtime inside this instance's runtime folder and prefer it. The version is verified by running the binary, not guessed from the folder name. A Java path set above takes precedence over this.</source>
+            <translation>在本实例的 runtime 目录中查找 Java 运行库并优先使用。版本通过运行该程序确认，而不是按目录名猜测。上方已设置的 Java 路径优先于此项。</translation>
+        </message>
+        <message>
+            <source>Use the Java &amp;runtime inside the instance folder</source>
+            <translation>使用实例目录内的 Java 运行库 (&amp;R)</translation>
+        </message>
 </context>
 <context>
     <name>JavaWizardPage</name>
@@ -6809,6 +6901,10 @@ Do you want to play the demo?</source>
         <source>This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason</source>
         <translation>这可能导致实例出现错误，这应该只在 Minecraft 由于一些原因冻结的时候使用</translation>
     </message>
+        <message>
+            <source>In order to play Minecraft, you must have at least one account added: a Microsoft account that owns Minecraft, or an offline account. Would you like to open the account manager to add an account now?</source>
+            <translation>要运行 Minecraft，你至少需要添加一个账户：拥有 Minecraft 的微软账户，或者离线账户。现在要打开账户管理器添加账户吗？</translation>
+        </message>
 </context>
 <context>
     <name>LaunchTask</name>
@@ -12635,6 +12731,10 @@ NOTE: Make sure you made a backup of your important instance data before updatin
             <numerusform>请求频率过高：等待 %n 秒后自动重试</numerusform>
         </translation>
     </message>
+        <message>
+            <source>Retrying from a different source</source>
+            <translation>改用其他下载源重试</translation>
+        </message>
 </context>
 <context>
     <name>Net::Upload</name>
@@ -18779,6 +18879,24 @@ Please add your Mojang or Minecraft account.</source>
         <source>Version</source>
         <translation>版本</translation>
     </message>
+        <message>
+            <source>Install OptiFine</source>
+            <translation>安装 OptiFine</translation>
+        </message>
+        <message>
+            <source>Install OptiFine for this instance's Minecraft version.</source>
+            <translation>为此实例的 Minecraft 版本安装 OptiFine。</translation>
+        </message>
+        <message>
+            <source>Cannot download Minecraft or update instances unless you have at least one account added.
+Please add a Microsoft account or an offline account.</source>
+            <translation>未添加任何账户时无法下载 Minecraft 或更新实例。
+请添加一个微软账户或离线账户。</translation>
+        </message>
+        <message>
+            <source>OptiFine can only be installed into an instance that has a Minecraft version.</source>
+            <translation>只能为设置了 Minecraft 版本的实例安装 OptiFine。</translation>
+        </message>
 </context>
 <context>
     <name>VersionProxyModel</name>
@@ -19543,5 +19661,169 @@ Please set up your account according to %1.</source>
         <source>Mojang user authentication ended with a network error.</source>
         <translation type="vanished">Mojang 账户认证因网络错误终止。</translation>
     </message>
+</context>
+<context>
+    <name>Java::LocalJavaScanTask</name>
+        <message>
+            <source>Looking for Java inside the instance</source>
+            <translation>正在实例内查找 Java</translation>
+        </message>
+        <message>
+            <source>Java detection</source>
+            <translation>Java 检测</translation>
+        </message>
+</context>
+<context>
+    <name>OptiFine::InstallTask</name>
+        <message>
+            <source>Could not create a temporary directory for the OptiFine installer.</source>
+            <translation>无法为 OptiFine 安装器创建临时目录。</translation>
+        </message>
+        <message>
+            <source>Could not download %1: %2</source>
+            <translation>无法下载%1：%2</translation>
+        </message>
+        <message>
+            <source>Looking up Minecraft %1</source>
+            <translation>正在查找 Minecraft %1</translation>
+        </message>
+        <message>
+            <source>Minecraft %1 was not found in the version manifest.</source>
+            <translation>版本清单中没有找到 Minecraft %1。</translation>
+        </message>
+        <message>
+            <source>the version manifest</source>
+            <translation>版本清单</translation>
+        </message>
+        <message>
+            <source>Downloading the Minecraft %1 metadata</source>
+            <translation>正在下载 Minecraft %1 的元数据</translation>
+        </message>
+        <message>
+            <source>Could not write the version metadata the installer needs.</source>
+            <translation>无法写入安装器所需的版本元数据。</translation>
+        </message>
+        <message>
+            <source>The version metadata has no client download.</source>
+            <translation>版本元数据中没有客户端下载地址。</translation>
+        </message>
+        <message>
+            <source>the version metadata</source>
+            <translation>版本元数据</translation>
+        </message>
+        <message>
+            <source>Downloading the Minecraft %1 client</source>
+            <translation>正在下载 Minecraft %1 客户端</translation>
+        </message>
+        <message>
+            <source>the client jar</source>
+            <translation>客户端 jar</translation>
+        </message>
+        <message>
+            <source>Downloading OptiFine %1</source>
+            <translation>正在下载 OptiFine %1</translation>
+        </message>
+        <message>
+            <source>OptiFine</source>
+            <translation>OptiFine</translation>
+        </message>
+        <message>
+            <source>Running the OptiFine installer</source>
+            <translation>正在运行 OptiFine 安装器</translation>
+        </message>
+        <message>
+            <source>OptiFine needs a Java runtime in order to install. Set one in this instance's Java settings first.</source>
+            <translation>OptiFine 需要 Java 运行库才能安装。请先在本实例的 Java 设置中指定一个。</translation>
+        </message>
+        <message>
+            <source>The OptiFine runner jar is missing from this build.</source>
+            <translation>此构建中缺少 OptiFine 运行器 jar。</translation>
+        </message>
+        <message>
+            <source>Could not start Java to run the OptiFine installer.</source>
+            <translation>无法启动 Java 来运行 OptiFine 安装器。</translation>
+        </message>
+        <message>
+            <source>The OptiFine installer did not produce %1.</source>
+            <translation>OptiFine 安装器没有生成 %1。</translation>
+        </message>
+        <message>
+            <source>Could not read the version json produced by the installer.</source>
+            <translation>无法读取安装器生成的版本 json。</translation>
+        </message>
+        <message>
+            <source>The installer produced a version json that could not be parsed.</source>
+            <translation>安装器生成的版本 json 无法解析。</translation>
+        </message>
+        <message>
+            <source>The installer did not extract the OptiFine jar.</source>
+            <translation>安装器没有解出 OptiFine jar。</translation>
+        </message>
+        <message>
+            <source>Could not replace the OptiFine jar already in the instance.</source>
+            <translation>无法替换实例中已有的 OptiFine jar。</translation>
+        </message>
+        <message>
+            <source>Could not copy the OptiFine jar into the instance.</source>
+            <translation>无法将 OptiFine jar 复制到实例中。</translation>
+        </message>
+        <message>
+            <source>Could not read back the copied OptiFine jar.</source>
+            <translation>无法读回已复制的 OptiFine jar。</translation>
+        </message>
+        <message>
+            <source>Could not write the OptiFine component file.</source>
+            <translation>无法写入 OptiFine 组件文件。</translation>
+        </message>
+        <message>
+            <source>Could not replace the OptiFine component already in this instance.</source>
+            <translation>无法替换此实例中已有的 OptiFine 组件。</translation>
+        </message>
+        <message>
+            <source>Could not add the OptiFine component to the instance.</source>
+            <translation>无法将 OptiFine 组件添加到实例。</translation>
+        </message>
+</context>
+<context>
+    <name>OptiFine::ListTask</name>
+        <message>
+            <source>Loading the OptiFine build list</source>
+            <translation>正在加载 OptiFine 版本列表</translation>
+        </message>
+        <message>
+            <source>Could not load the OptiFine build list: %1</source>
+            <translation>无法加载 OptiFine 版本列表：%1</translation>
+        </message>
+        <message>
+            <source>The mirror has no OptiFine build for Minecraft %1.</source>
+            <translation>镜像中没有 Minecraft %1 的 OptiFine 版本。</translation>
+        </message>
+</context>
+<context>
+    <name>OptiFineInstallDialog</name>
+        <message>
+            <source>Install OptiFine for Minecraft %1</source>
+            <translation>为 Minecraft %1 安装 OptiFine</translation>
+        </message>
+        <message>
+            <source>Choose an OptiFine build:</source>
+            <translation>选择一个 OptiFine 版本：</translation>
+        </message>
+        <message>
+            <source>preview</source>
+            <translation>预览版</translation>
+        </message>
+        <message>
+            <source>Installer note: %1</source>
+            <translation>安装器备注：%1</translation>
+        </message>
+        <message>
+            <source>Install</source>
+            <translation>安装</translation>
+        </message>
+        <message>
+            <source>Cancel</source>
+            <translation>取消</translation>
+        </message>
 </context>
 </TS>
