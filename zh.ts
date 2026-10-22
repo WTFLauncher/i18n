@@ -6384,6 +6384,34 @@ Please make sure that the maximum memory value is lower.</source>
             <source>Use the Java &amp;runtime inside the instance folder</source>
             <translation>使用实例目录内的 Java 运行库 (&amp;R)</translation>
         </message>
+        <message>
+            <source>%1 Both limits are the same number, so the heap does not have to grow while you play.</source>
+            <translation>%1 两个数值设为相同，是为了让堆不必在游戏过程中扩容。</translation>
+        </message>
+        <message>
+            <source>%1 mods installed here, so %2 MiB of heap.</source>
+            <translation>这里装了 %1 个模组，所以堆给 %2 MiB。</translation>
+        </message>
+        <message>
+            <source>Memory suggestion</source>
+            <translation>内存建议</translation>
+        </message>
+        <message>
+            <source>This machine has %1 MiB, and three quarters of it is as much as the game should be given.</source>
+            <translation>这台机器共有 %1 MiB，其中的四分之三已经是游戏该拿的上限。</translation>
+        </message>
+        <message>
+            <source>This machine has %1 MiB, so the game can have %2 MiB and still leave room for everything else.</source>
+            <translation>这台机器共有 %1 MiB，游戏拿 %2 MiB 之后还够其余部分使用。</translation>
+        </message>
+        <message>
+            <source>This machine has only %1 MiB in total. The game needs %2 MiB to start, so close what else is running.</source>
+            <translation>这台机器总共只有 %1 MiB。游戏启动至少需要 %2 MiB，请先关掉其他程序。</translation>
+        </message>
+        <message>
+            <source>Use these &amp;values</source>
+            <translation>采用这些数值(&amp;V)</translation>
+        </message>
 </context>
 <context>
     <name>JavaWizardPage</name>
@@ -6966,6 +6994,14 @@ You may have to fix your mods because the game is still logging to files and lik
         <source>[Log4j Parse Error] Failed to parse log4j log event: %1</source>
         <translation>[Log4j 解析错误] 解析 log4j 日志事件失败：%1</translation>
     </message>
+        <message>
+            <source>Diagnosis: %1</source>
+            <translation>诊断：%1</translation>
+        </message>
+        <message>
+            <source>Suggestion: %1</source>
+            <translation>建议：%1</translation>
+        </message>
 </context>
 <context>
     <name>LauncherLoginStep</name>
@@ -16930,6 +16966,22 @@ Currently installed version: %1</source>
         <source>Latency</source>
         <translation type="vanished">延迟</translation>
     </message>
+        <message>
+            <source>Offline</source>
+            <translation>离线</translation>
+        </message>
+        <message>
+            <source>Ping</source>
+            <translation>延迟</translation>
+        </message>
+        <message>
+            <source>Players</source>
+            <translation>在线人数</translation>
+        </message>
+        <message>
+            <source>Version</source>
+            <translation>版本</translation>
+        </message>
 </context>
 <context>
     <name>ServersPage</name>
@@ -20036,6 +20088,145 @@ Please set up your account according to %1.</source>
         <message>
             <source>Username</source>
             <translation>用户名</translation>
+        </message>
+</context>
+<context>
+    <name>CrashAnalysis</name>
+        <message>
+            <source>A mixin is a mod rewriting the game's own code while it loads, and it fails when the code it expects is not there. The line names the mod the mixin belongs to - replace it with the build for this exact version of the game and of the loader.</source>
+            <translation>Mixin 是模组在游戏加载时改写游戏自身代码的机制，它找不到要改的代码就会失败。这一行点名了这个 mixin 属于哪个模组——请换成与当前游戏版本和加载器版本完全对应的构建。</translation>
+        </message>
+        <message>
+            <source>A mod could not patch the game</source>
+            <translation>模组没能改写游戏代码</translation>
+        </message>
+        <message>
+            <source>A mod failed while it was starting up</source>
+            <translation>模组在初始化阶段就失败了</translation>
+        </message>
+        <message>
+            <source>A mod is missing something it needs</source>
+            <translation>模组缺少它依赖的东西</translation>
+        </message>
+        <message>
+            <source>A mod needs a newer Java than the one in use</source>
+            <translation>模组需要的 Java 版本比当前使用的新</translation>
+        </message>
+        <message>
+            <source>A native library was not unpacked</source>
+            <translation>本地库没有解包成功</translation>
+        </message>
+        <message>
+            <source>Everything the game draws from a texture sheet has to fit in one image. A high resolution resource pack, or a mod adding many custom items, is what overflows it - lower the pack's resolution or remove the mod that adds the most textures.</source>
+            <translation>游戏要从一张图集里绘制所有纹理，容量是有限的。高分辨率材质包，或者加入大量自定义物品的模组，最容易把它撑爆——降低材质包分辨率，或移除加入纹理最多的那个模组。</translation>
+        </message>
+        <message>
+            <source>Fabric writes under this line who wants what version, and often a suggested fix. Follow it: change the version of the named mod, or remove it. Guessing which of the two is at fault wastes an hour.</source>
+            <translation>Fabric 会在这行下面写清谁需要什么版本，通常还给出建议的解决办法。照着做：换掉被点名模组的版本，或者移除它。靠猜是谁的错会浪费一小时。</translation>
+        </message>
+        <message>
+            <source>Install what this line names - usually a library mod that other mods sit on, or a loader new enough for the mods installed. If it is already installed, the version is not the one being asked for: match the number in this line rather than the name.</source>
+            <translation>装上这一行点名的东西——通常是其他模组赖以运行的前置库，或者足够新的加载器。如果已经装了，那就是版本不对：按这一行给出的数字对齐版本，而不是看名字。</translation>
+        </message>
+        <message>
+            <source>Java %1</source>
+            <translation>Java %1</translation>
+        </message>
+        <message>
+            <source>Metaspace holds the classes of everything that is loaded, so it fills up with the number of mods rather than the size of the heap. Add -XX:MaxMetaspaceSize=512M to this instance's Java arguments, or remove mods.</source>
+            <translation>Metaspace 存放已加载的类，所以它是由模组数量填满的，而不是由堆大小决定。请在本实例的 Java 参数里加上 -XX:MaxMetaspaceSize=512M，或者减少模组。</translation>
+        </message>
+        <message>
+            <source>Raise this instance's maximum allocated memory, and ask less of the heap: lower the render distance, turn off fancy graphics, drop resource packs with large textures. If it still runs out with a lot of headroom, one mod is holding on to memory - take out the most recently added mods first.</source>
+            <translation>调高本实例的最大内存，同时少向堆要东西：降低视距、关闭华丽图形、移除高分辨率材质包。如果留了很大余量还是耗尽，那就是某个模组占着内存不放——先移除最近加入的模组。</translation>
+        </message>
+        <message>
+            <source>Raise this instance's maximum allocated memory. If the line above names something other than the heap, it is the mod that asked for the memory, not the amount.</source>
+            <translation>调高本实例的最大内存。如果上面那行点名的不是堆，那么是那个模组在要内存，而不是内存给少了。</translation>
+        </message>
+        <message>
+            <source>Search the mods folder for each name listed and keep one file per mod, the newest. Two files with different names can still hold the same mod, which is what happens when a mod bundles a library that is also installed on its own.</source>
+            <translation>按列出的每个名字在模组文件夹里搜索，每个模组只保留一个文件，留下最新的。两个不同名的文件里可能是同一个模组——模组把某个已经单独安装的前置库打包进自己时就是这样。</translation>
+        </message>
+        <message>
+            <source>Something here was compiled for %1, but this instance is launching with %2. Set a newer Java in this instance's Java settings, or remove the mod that needs it.</source>
+            <translation>这里有东西是为 %1 编译的，但本实例正用 %2 启动。请在实例的 Java 设置里换用更新的 Java，或者移除需要它的模组。</translation>
+        </message>
+        <message>
+            <source>The Java runtime itself crashed</source>
+            <translation>Java 运行时自己崩溃了</translation>
+        </message>
+        <message>
+            <source>The game ran out of class space</source>
+            <translation>游戏的类空间（Metaspace）用完了</translation>
+        </message>
+        <message>
+            <source>The game ran out of memory</source>
+            <translation>游戏内存不足</translation>
+        </message>
+        <message>
+            <source>The game ran out of registration numbers</source>
+            <translation>游戏的注册编号用完了</translation>
+        </message>
+        <message>
+            <source>The game wrote a crash report</source>
+            <translation>游戏写出了崩溃报告</translation>
+        </message>
+        <message>
+            <source>The game's own dll and so files are unpacked into a temporary folder when it starts, and an antivirus or a full disk stops that. Let this launcher and its instance folder through the antivirus, then start again.</source>
+            <translation>游戏启动时会把自己的 dll 与 so 解包到临时目录，杀毒软件或磁盘写满会拦下这一步。请在杀毒软件里放行本启动器及其实例目录，然后重新启动。</translation>
+        </message>
+        <message>
+            <source>The graphics driver cannot open a window</source>
+            <translation>显卡驱动无法创建窗口</translation>
+        </message>
+        <message>
+            <source>The heap this instance asks for is bigger than what this Java can hand over. Lower the maximum memory - the settings page suggests a number for this machine - and check that the Java in use is 64-bit, since a 32-bit one stops being useful somewhere above 1.5 GiB.</source>
+            <translation>本实例要的堆比这个 Java 能给的还大。请调低最大内存——设置页会按这台机器给出建议值——并确认用的是 64 位 Java，32 位的大约超过 1.5 GiB 就没用了。</translation>
+        </message>
+        <message>
+            <source>The line above is the mod that actually failed; the class-not-found line after it is the same mod being asked for again. Scroll to the first ExceptionInInitializerError and take out the mod it names, or update it to a build for this version of the game.</source>
+            <translation>上面那行才是真正失败的模组；它后面的 class-not-found 只是同一个模组被再次要求。请翻到第一个 ExceptionInInitializerError，移除它点名的模组，或换成适配当前游戏版本的构建。</translation>
+        </message>
+        <message>
+            <source>The line above names what the game was doing when it stopped. Take out the mod it blames, or ask its author - the whole report is smaller than one screenshot of the log.</source>
+            <translation>上面那行说明了游戏停下来时正在做什么。移除它点名的模组，或者去问模组作者——整份崩溃报告比一屏日志截图小得多。</translation>
+        </message>
+        <message>
+            <source>The memory requested cannot be given</source>
+            <translation>请求的内存无法分配</translation>
+        </message>
+        <message>
+            <source>The mods installed do not agree with each other</source>
+            <translation>已安装的模组彼此不兼容</translation>
+        </message>
+        <message>
+            <source>The same mod is installed twice</source>
+            <translation>同一个模组装了两份</translation>
+        </message>
+        <message>
+            <source>There is no room left in the texture atlas</source>
+            <translation>纹理图集已经放不下更多东西</translation>
+        </message>
+        <message>
+            <source>This is not a mod error: the JVM wrote a file named hs_err_pid with the details. What matters is which library the crash happened in - a graphics driver module there means update or roll back the driver, and a mod's own dll means that mod is the one to remove.</source>
+            <translation>这不是模组的错误：JVM 自己写出了名为 hs_err_pid 的文件。要看崩溃发生在哪个库里——那里是显卡驱动模块，就去更新或回滚驱动；是某个模组自带的 dll，就移除那个模组。</translation>
+        </message>
+        <message>
+            <source>Update the graphics driver from Intel, AMD or Nvidia's own site rather than through Windows Update. On a laptop with two GPUs, force the game onto the one that supports OpenGL; through remote desktop there is no OpenGL at all and the game cannot start.</source>
+            <translation>请到 Intel、AMD 或 NVIDIA 官网更新显卡驱动，不要用 Windows 更新里的版本。双显卡笔记本请把游戏强制运行在支持 OpenGL 的那块显卡上；远程桌面下完全没有 OpenGL，游戏无法启动。</translation>
+        </message>
+        <message>
+            <source>Versions before 1.13 have a hard limit on how many blocks and items can be registered, and a large pack reaches it. Remove mods or move the pack to 1.13 or newer; there is no setting for this.</source>
+            <translation>1.13 以前的版本对可注册的方块和物品数量有硬上限，大型整合包会用到顶。请减少模组，或把整合包搬到 1.13 及以后——这个限制没有开关可以调。</translation>
+        </message>
+        <message>
+            <source>a newer Java</source>
+            <translation>更新的 Java</translation>
+        </message>
+        <message>
+            <source>an older Java</source>
+            <translation>较旧的 Java</translation>
         </message>
 </context>
 </TS>
