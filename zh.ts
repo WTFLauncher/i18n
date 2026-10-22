@@ -269,6 +269,14 @@
             <source>Tried in order for Mojang libraries, loader libraries and Maven Central, before the mirror base URL above. These mirrors carry that one tree, not the game itself.</source>
             <translation>按顺序尝试，用于 Mojang 支持库、模组加载器库与 Maven Central，排在上面的镜像基础地址之前。这些镜像只包含这一棵库文件树，不包含游戏本体。</translation>
         </message>
+        <message>
+            <source>Look blocked mods up on Modrinth</source>
+            <translation>在 Modrinth 上查找被屏蔽的模组</translation>
+        </message>
+        <message>
+            <source>CurseForge leaves out the download link when an author does not allow third-party launchers to distribute a file. This option looks the same file up on Modrinth by hash and downloads it from there instead. Off by default.</source>
+            <translation>当模组作者不允许第三方启动器分发某个文件时，CurseForge 会省略它的下载链接。勾选此项会按哈希在 Modrinth 上查找同一个文件，并改从 Modrinth 下载。默认不勾选。</translation>
+        </message>
 </context>
 <context>
     <name>ATLauncher::PackInstallTask</name>
