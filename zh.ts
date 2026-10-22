@@ -18917,6 +18917,18 @@ Please add a Microsoft account or an offline account.</source>
             <source>OptiFine can only be installed into an instance that has a Minecraft version.</source>
             <translation>只能为设置了 Minecraft 版本的实例安装 OptiFine。</translation>
         </message>
+        <message>
+            <source>Install</source>
+            <translation>安装</translation>
+        </message>
+        <message>
+            <source>Install authlib-injector</source>
+            <translation>安装 authlib-injector</translation>
+        </message>
+        <message>
+            <source>Point this instance at a third-party authentication server.</source>
+            <translation>让此实例使用第三方身份验证服务器。</translation>
+        </message>
 </context>
 <context>
     <name>VersionProxyModel</name>
@@ -19875,6 +19887,68 @@ Please set up your account according to %1.</source>
         <message>
             <source>Add</source>
             <translation>添加</translation>
+        </message>
+</context>
+<context>
+    <name>AuthlibInjector::InstallTask</name>
+        <message>
+            <source>Could not add the authlib-injector component to the instance.</source>
+            <translation>无法将 authlib-injector 组件添加到实例。</translation>
+        </message>
+        <message>
+            <source>Could not download %1: %2</source>
+            <translation>无法下载%1：%2</translation>
+        </message>
+        <message>
+            <source>Could not read the downloaded authlib-injector jar.</source>
+            <translation>无法读取已下载的 authlib-injector jar。</translation>
+        </message>
+        <message>
+            <source>Could not replace the authlib-injector component already in this instance.</source>
+            <translation>无法替换此实例中已有的 authlib-injector 组件。</translation>
+        </message>
+        <message>
+            <source>Could not write the authlib-injector component file.</source>
+            <translation>无法写入 authlib-injector 组件文件。</translation>
+        </message>
+        <message>
+            <source>Downloading authlib-injector %1</source>
+            <translation>正在下载 authlib-injector %1</translation>
+        </message>
+        <message>
+            <source>Looking up the authlib-injector release</source>
+            <translation>正在查找 authlib-injector 的发行版</translation>
+        </message>
+        <message>
+            <source>The mirror did not return a usable authlib-injector release.</source>
+            <translation>镜像没有返回可用的 authlib-injector 发行版。</translation>
+        </message>
+        <message>
+            <source>authlib-injector</source>
+            <translation>authlib-injector</translation>
+        </message>
+        <message>
+            <source>the release index</source>
+            <translation>发行版索引</translation>
+        </message>
+</context>
+<context>
+    <name>AuthlibInjectorDialog</name>
+        <message>
+            <source>Cancel</source>
+            <translation>取消</translation>
+        </message>
+        <message>
+            <source>Install</source>
+            <translation>安装</translation>
+        </message>
+        <message>
+            <source>Install authlib-injector</source>
+            <translation>安装 authlib-injector</translation>
+        </message>
+        <message>
+            <source>The authentication server this instance should use. Once installed, the game sends its login, session and skin requests to that server instead of to Mojang.</source>
+            <translation>此实例要使用的身份验证服务器。安装后，游戏会向该服务器发送登录、会话和皮肤请求，而不再发送给 Mojang。</translation>
         </message>
 </context>
 </TS>
