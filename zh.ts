@@ -633,6 +633,10 @@
         <oldsource>Name of the Minecraft profile associated with the account.</oldsource>
         <translation type="vanished">该账号能否迁移到微软账户。</translation>
     </message>
+        <message>
+            <source>Third-party</source>
+            <translation>第三方</translation>
+        </message>
 </context>
 <context>
     <name>AccountListPage</name>
@@ -828,6 +832,10 @@ Please update both your operating system and PolyMC.</source>
         <source>Failed to delete current skin!</source>
         <translation type="vanished">无法删除当前皮肤！</translation>
     </message>
+        <message>
+            <source>Add &amp;Third-Party</source>
+            <translation>添加第三方账户 (&amp;T)</translation>
+        </message>
 </context>
 <context>
     <name>AccountTask</name>
@@ -6912,6 +6920,22 @@ Do you want to play the demo?</source>
         <message>
             <source>In order to play Minecraft, you must have at least one account added: a Microsoft account that owns Minecraft, or an offline account. Would you like to open the account manager to add an account now?</source>
             <translation>要运行 Minecraft，你至少需要添加一个账户：拥有 Minecraft 的微软账户，或者离线账户。现在要打开账户管理器添加账户吗？</translation>
+        </message>
+        <message>
+            <source>Install authlib-injector</source>
+            <translation>安装 authlib-injector</translation>
+        </message>
+        <message>
+            <source>authlib-injector is not installed</source>
+            <translation>未安装 authlib-injector</translation>
+        </message>
+        <message>
+            <source>This account signs in through %1, but this instance has no authlib-injector agent, so the game cannot reach that server to load skins or to join its online-mode servers.
+
+Install the agent into this instance now?</source>
+            <translation>此账户通过 %1 登录，但此实例没有 authlib-injector 代理，游戏既无法连接该服务器加载皮肤，也无法加入开启正版验证的服务器。
+
+要现在为此实例安装该代理吗？</translation>
         </message>
 </context>
 <context>
@@ -19693,6 +19717,30 @@ Please set up your account according to %1.</source>
         <source>Mojang user authentication ended with a network error.</source>
         <translation type="vanished">Mojang 账户认证因网络错误终止。</translation>
     </message>
+        <message>
+            <source>Failed to contact the authentication server: %1</source>
+            <translation>无法连接身份验证服务器：%1</translation>
+        </message>
+        <message>
+            <source>Got an access token</source>
+            <translation>已获取访问令牌</translation>
+        </message>
+        <message>
+            <source>Logging in to the authentication server</source>
+            <translation>正在登录身份验证服务器</translation>
+        </message>
+        <message>
+            <source>Renewing the access token</source>
+            <translation>正在续期访问令牌</translation>
+        </message>
+        <message>
+            <source>The authentication server gave no character to play as.</source>
+            <translation>身份验证服务器没有给出可使用的角色。</translation>
+        </message>
+        <message>
+            <source>The authentication server sent an answer that could not be understood.</source>
+            <translation>身份验证服务器返回了无法理解的应答。</translation>
+        </message>
 </context>
 <context>
     <name>Java::LocalJavaScanTask</name>
@@ -19949,6 +19997,37 @@ Please set up your account according to %1.</source>
         <message>
             <source>The authentication server this instance should use. Once installed, the game sends its login, session and skin requests to that server instead of to Mojang.</source>
             <translation>此实例要使用的身份验证服务器。安装后，游戏会向该服务器发送登录、会话和皮肤请求，而不再发送给 Mojang。</translation>
+        </message>
+</context>
+<context>
+    <name>YggdrasilLoginDialog</name>
+        <message>
+            <source>Add a third-party account</source>
+            <translation>添加第三方账户</translation>
+        </message>
+        <message>
+            <source>Authentication server</source>
+            <translation>身份验证服务器</translation>
+        </message>
+        <message>
+            <source>Cancel</source>
+            <translation>取消</translation>
+        </message>
+        <message>
+            <source>Password</source>
+            <translation>密码</translation>
+        </message>
+        <message>
+            <source>Sign in</source>
+            <translation>登录</translation>
+        </message>
+        <message>
+            <source>Sign in to an authentication server that runs authlib-injector. Instances that join an online-mode server on that account also need the authlib-injector agent, which this launcher installs on request.</source>
+            <translation>登录一个运行 authlib-injector 的身份验证服务器。若要用这个账户加入开启正版验证的服务器，实例还需要 authlib-injector 代理，启动器会在你同意时安装。</translation>
+        </message>
+        <message>
+            <source>Username</source>
+            <translation>用户名</translation>
         </message>
 </context>
 </TS>
