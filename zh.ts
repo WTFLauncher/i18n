@@ -15633,6 +15633,14 @@ Error message: %3</source>
             <source>This account may play as more than one character. Which one should the launcher use?</source>
             <translation>这个账户可以有多个角色。启动器应该使用哪一个？</translation>
         </message>
+        <message>
+            <source>The address has to be only the web address the server gives, with no spaces or other text.</source>
+            <translation>这里只能填服务器给出的网址，不能有空格或其他文字。</translation>
+        </message>
+        <message>
+            <source>The address has to start with http:// or https://</source>
+            <translation>地址要以 http:// 或 https:// 开头。</translation>
+        </message>
 </context>
 <context>
     <name>Resource</name>
@@ -19975,6 +19983,14 @@ Please set up your account according to %1.</source>
             <source>The OptiFine installer did not extract anything.</source>
             <translation>OptiFine 安装器没有解出任何文件。</translation>
         </message>
+        <message>
+            <source>Trying again to download %1: %2</source>
+            <translation>正在重试下载 %1：%2</translation>
+        </message>
+        <message>
+            <source>Could not create the profile file the OptiFine installer needs.</source>
+            <translation>没能创建 OptiFine 安装器需要的 launcher_profiles.json。</translation>
+        </message>
 </context>
 <context>
     <name>OptiFine::ListTask</name>
@@ -20082,6 +20098,10 @@ Please set up your account according to %1.</source>
         <message>
             <source>the release index</source>
             <translation>发行版索引</translation>
+        </message>
+        <message>
+            <source>Could not work out where the authlib-injector jar belongs.</source>
+            <translation>没能确定 authlib-injector 的 jar 该放在哪里。</translation>
         </message>
 </context>
 <context>
