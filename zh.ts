@@ -6412,6 +6412,18 @@ Please make sure that the maximum memory value is lower.</source>
             <source>Use these &amp;values</source>
             <translation>采用这些数值(&amp;V)</translation>
         </message>
+        <message>
+            <source>Suggested arguments</source>
+            <translation>建议参数</translation>
+        </message>
+        <message>
+            <source>Add these &amp;arguments</source>
+            <translation>填入这些参数 (&amp;A)</translation>
+        </message>
+        <message>
+            <source>Suggested for %1 MiB of heap: %2</source>
+            <translation>%1 MiB 的堆建议这样填：%2</translation>
+        </message>
 </context>
 <context>
     <name>JavaWizardPage</name>
@@ -15613,6 +15625,14 @@ Error message: %3</source>
         <source>Could not open file %1 for reading: %2</source>
         <translation>无法打开 %1 文件进行读取：%2</translation>
     </message>
+        <message>
+            <source>Choose a character</source>
+            <translation>选择角色</translation>
+        </message>
+        <message>
+            <source>This account may play as more than one character. Which one should the launcher use?</source>
+            <translation>这个账户可以有多个角色。启动器应该使用哪一个？</translation>
+        </message>
 </context>
 <context>
     <name>Resource</name>
