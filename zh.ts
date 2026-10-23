@@ -19825,6 +19825,10 @@ Please set up your account according to %1.</source>
             <source>Nothing is served at %1. Use the authentication address the server itself gives - and a server that signs in through a browser rather than by password cannot be used here.</source>
             <translation>%1 上没有可登录的服务。请填服务器自己给出的身份验证地址——只在浏览器里登录、不接受账号密码的服务器，这里用不了。</translation>
         </message>
+        <message>
+            <source>Nothing answers sign-in at %1. The address should be the one the server gives its players, without the authserver part on the end.</source>
+            <translation>%1 上没有可登录的服务。地址请填服务器给玩家的那个，不要在末尾自己加上 authserver。</translation>
+        </message>
 </context>
 <context>
     <name>Java::LocalJavaScanTask</name>
@@ -19954,6 +19958,22 @@ Please set up your account according to %1.</source>
         <message>
             <source>OptiFine needs a Java runtime to install. Launch this instance once so the launcher downloads one, or set a Java path in its settings.</source>
             <translation>安装 OptiFine 需要 Java 运行库。请启动一次本实例让启动器自动下载，或者在实例设置里指定 Java 路径。</translation>
+        </message>
+        <message>
+            <source>Could not replace the %1 already in the instance.</source>
+            <translation>没能替换实例里已有的 %1。</translation>
+        </message>
+        <message>
+            <source>Could not copy %1 into the instance.</source>
+            <translation>没能把 %1 复制进实例。</translation>
+        </message>
+        <message>
+            <source>Could not read back the copied %1.</source>
+            <translation>没能读回复制好的 %1。</translation>
+        </message>
+        <message>
+            <source>The OptiFine installer did not extract anything.</source>
+            <translation>OptiFine 安装器没有解出任何文件。</translation>
         </message>
 </context>
 <context>
@@ -20116,6 +20136,10 @@ Please set up your account according to %1.</source>
         <message>
             <source>Sign in to a server that answers the Yggdrasil API with a username and password. The address is used exactly as it is typed, so give the one the server itself documents. Instances that join an online-mode server on that account also need the authlib-injector agent, which this launcher installs on request.</source>
             <translation>登录一个用账号密码应答 Yggdrasil 接口的服务器。地址按你填的原样使用，所以请填服务器自己给出的验证地址。若要用这个账户加入开启正版验证的服务器，实例还需要 authlib-injector 代理，启动器会在你同意时安装。</translation>
+        </message>
+        <message>
+            <source>Sign in to a server that answers the Yggdrasil API with a username and password. Type the authentication address the server gives its players, and the sign-in path goes below it. Instances that join an online-mode server on that account also need the authlib-injector agent, which this launcher installs on request.</source>
+            <translation>登录一个用账号密码应答 Yggdrasil 接口的服务器。地址请填服务器给玩家的验证地址，登录路径会接在它下面。若要用这个账户加入开启正版验证的服务器，实例还需要 authlib-injector 代理，启动器会在你同意时安装。</translation>
         </message>
 </context>
 <context>
