@@ -19821,6 +19821,10 @@ Please set up your account according to %1.</source>
             <source>The authentication server sent an answer that could not be understood.</source>
             <translation>身份验证服务器返回了无法理解的应答。</translation>
         </message>
+        <message>
+            <source>Nothing is served at %1. Use the authentication address the server itself gives - and a server that signs in through a browser rather than by password cannot be used here.</source>
+            <translation>%1 上没有可登录的服务。请填服务器自己给出的身份验证地址——只在浏览器里登录、不接受账号密码的服务器，这里用不了。</translation>
+        </message>
 </context>
 <context>
     <name>Java::LocalJavaScanTask</name>
@@ -20108,6 +20112,10 @@ Please set up your account according to %1.</source>
         <message>
             <source>Username</source>
             <translation>用户名</translation>
+        </message>
+        <message>
+            <source>Sign in to a server that answers the Yggdrasil API with a username and password. The address is used exactly as it is typed, so give the one the server itself documents. Instances that join an online-mode server on that account also need the authlib-injector agent, which this launcher installs on request.</source>
+            <translation>登录一个用账号密码应答 Yggdrasil 接口的服务器。地址按你填的原样使用，所以请填服务器自己给出的验证地址。若要用这个账户加入开启正版验证的服务器，实例还需要 authlib-injector 代理，启动器会在你同意时安装。</translation>
         </message>
 </context>
 <context>
