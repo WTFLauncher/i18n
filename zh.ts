@@ -15633,14 +15633,6 @@ Error message: %3</source>
             <source>This account may play as more than one character. Which one should the launcher use?</source>
             <translation>这个账户可以有多个角色。启动器应该使用哪一个？</translation>
         </message>
-        <message>
-            <source>The address has to be only the web address the server gives, with no spaces or other text.</source>
-            <translation>这里只能填服务器给出的网址，不能有空格或其他文字。</translation>
-        </message>
-        <message>
-            <source>The address has to start with http:// or https://</source>
-            <translation>地址要以 http:// 或 https:// 开头。</translation>
-        </message>
 </context>
 <context>
     <name>Resource</name>
@@ -20160,6 +20152,14 @@ Please set up your account according to %1.</source>
         <message>
             <source>Sign in to a server that answers the Yggdrasil API with a username and password. Type the authentication address the server gives its players, and the sign-in path goes below it. Instances that join an online-mode server on that account also need the authlib-injector agent, which this launcher installs on request.</source>
             <translation>登录一个用账号密码应答 Yggdrasil 接口的服务器。地址请填服务器给玩家的验证地址，登录路径会接在它下面。若要用这个账户加入开启正版验证的服务器，实例还需要 authlib-injector 代理，启动器会在你同意时安装。</translation>
+        </message>
+        <message>
+            <source>The address has to be only the web address the server gives, with no spaces or other text.</source>
+            <translation>这里只能填服务器给出的网址，不能有空格或其他文字。</translation>
+        </message>
+        <message>
+            <source>The address has to start with http:// or https://</source>
+            <translation>地址要以 http:// 或 https:// 开头。</translation>
         </message>
 </context>
 <context>
