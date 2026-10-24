@@ -6985,6 +6985,10 @@ Install the agent into this instance now?</source>
 
 要现在为此实例安装该代理吗？</translation>
         </message>
+        <message>
+            <source>In order to play Minecraft, you must have at least one account added: a Microsoft account that owns Minecraft, or an account on a third-party authentication server. Would you like to open the account manager to add an account now?</source>
+            <translation>要玩 Minecraft，你必须至少添加一个账户：一个拥有 Minecraft 的 Microsoft 账户，或第三方验证服务器上的账户。现在要打开账户管理添加账户吗？</translation>
+        </message>
 </context>
 <context>
     <name>LaunchTask</name>
@@ -8334,6 +8338,10 @@ Reason:
         <message>
             <source>Add a Microsoft account here, or skip this step and add an offline account later under Settings - Accounts.</source>
             <translation>在这里添加微软账户，或者跳过这一步，稍后在“设置 - 账户”中添加离线账户。</translation>
+        </message>
+        <message>
+            <source>Add a Microsoft account here, or skip this step and add an account later under Settings - Accounts.</source>
+            <translation>在这里添加 Microsoft 账户，或者跳过这一步，稍后在“设置 - 账户”中添加账户。</translation>
         </message>
 </context>
 <context>
@@ -19032,6 +19040,12 @@ Please add a Microsoft account or an offline account.</source>
         <message>
             <source>Point this instance at a third-party authentication server.</source>
             <translation>让此实例使用第三方身份验证服务器。</translation>
+        </message>
+        <message>
+            <source>Cannot download Minecraft or update instances unless you have at least one account added.
+Please add a Microsoft account that owns Minecraft, or an account on a third-party authentication server.</source>
+            <translation>未添加任何账户时无法下载 Minecraft 或更新实例。
+请添加一个拥有 Minecraft 的 Microsoft 账户，或第三方验证服务器上的账户。</translation>
         </message>
 </context>
 <context>
